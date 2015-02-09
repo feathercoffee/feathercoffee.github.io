@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1, width=device-width, user-scalable=no">
+		<title>Feather Coffee</title>
+		<style type="text/css">
+			video#background {
+				position: fixed; 
+				right: 0; 
+				bottom: 0;
+				min-width: 100%; 
+				min-height: 100%;
+				width: auto; 
+				height: auto; 
+				z-index: -100;
+				background: url('images/Website_B-Roll_V1.jpg') no-repeat;
+				background-size: cover;
+			}
+			video {
+				display: block;
+			}
+			@media screen and (max-device-width: 800px) {
+				body { 
+					background: url('images/Website_B-Roll_V1.jpg') #000 no-repeat center center fixed; 
+				}
+				#background { 
+					display: none; 
+				}
+			}
+		</style>
+		<!--[if lt IE 9]>
+		<script>
+			document.createElement('video');
+		</script>
+		<![endif]-->
+	</head>
+	<body>
+		<video autoplay loop poster="images/Website_B-Roll_V1.jpg" id="background">
+			<source src="videos/Website_B-Roll_V1.webm" type="video/webm">
+			<source src="videos/Website_B-Roll_V1.mp4" type="video/mp4">
+		</video>
+	</body>
+</html>

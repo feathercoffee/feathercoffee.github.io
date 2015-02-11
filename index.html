@@ -2,32 +2,9 @@
 <html lang="en">
 	<head>
 		<meta name="viewport" content="initial-scale=1, maximum-scale=1, width=device-width, user-scalable=no">
+		<link rel="shortcut icon" href="favicon.ico" />
 		<title>Feather Coffee</title>
-		<style type="text/css">
-			video#background {
-				position: fixed; 
-				right: 0; 
-				bottom: 0;
-				min-width: 100%; 
-				min-height: 100%;
-				width: auto; 
-				height: auto; 
-				z-index: -100;
-				background: url('images/Website_B-Roll_V1.jpg') no-repeat;
-				background-size: cover;
-			}
-			video {
-				display: block;
-			}
-			@media screen and (max-device-width: 800px) {
-				body { 
-					background: url('images/Website_B-Roll_V1.jpg') #000 no-repeat center center fixed; 
-				}
-				#background { 
-					display: none; 
-				}
-			}
-		</style>
+		<link rel="Stylesheet" href="style/main.css" />
 		<!--[if lt IE 9]>
 		<script>
 			document.createElement('video');
@@ -35,6 +12,13 @@
 		<![endif]-->
 	</head>
 	<body>
+		<div id="header">
+			<a id="logo" class="header-sprite" href="/" text="Feather Coffee" alt="Feather Coffee"></a>
+			<a id="twitter" class="social-media-icon header-sprite" href="https://twitter.com/feathercoffee" target="_blank" text="Feather Coffee on Twitter" alt="Feather Coffee on Twitter"></a>
+			<a id="pinterest" class="social-media-icon header-sprite" href="https://www.pinterest.com/melgron/feather-coffee-rare-disease-kickstarter-campaign/" target="_blank" text="Feather Coffee on Pinterest" alt="Feather Coffee on Pinterest"></a>
+			<a id="instagram" class="social-media-icon header-sprite" href="https://instagram.com/feathercoffee" target="_blank" text="Feather Coffee on Instagram" alt="Feather Coffee on Instagram"></a>
+			<a id="facebook" class="social-media-icon header-sprite" href="https://facebook.com/feathercoffee" target="_blank" text="Feather Coffee on Facebook" alt="Feather Coffee on Facebook"></a>
+		</div>
 		<video autoplay loop poster="images/Website_B-Roll_V1.jpg" id="background">
 			<source src="videos/Website_B-Roll_V1.webm" type="video/webm">
 			<source src="videos/Website_B-Roll_V1.mp4" type="video/mp4">

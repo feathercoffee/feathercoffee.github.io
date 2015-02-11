@@ -1,0 +1,84 @@
+html {
+	font-size: 100%;
+	-moz-text-size-adjust: none; 
+	-webkit-text-size-adjust: none;
+	-ms-text-size-adjust: none;
+	text-size-adjust: none;
+	-webkit-tap-highlight-color: transparent;
+}
+body {
+	margin: 15px 15px;
+	padding: 0;
+}
+video#background {
+	position: fixed; 
+	right: 0; 
+	bottom: 0;
+	min-width: 100%; 
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -100;
+	background: url('/images/Website_B-Roll_V1.jpg') no-repeat;
+	background-size: cover;
+}
+video {
+	display: block;
+}
+@media screen and (max-device-width: 800px) {
+	body { 
+		background: url('/images/Website_B-Roll_V1.jpg') #000 no-repeat center center fixed; 
+	}
+	#background { 
+		display: none; 
+	}
+}
+.header-sprite {
+	background: url('/images/header-sprite.png') no-repeat center center;
+}
+.social-media-icon {
+	height: 48px;
+	width: 48px;
+	display: inline-block;
+	float: right;
+	margin-left: 15px;
+}
+#facebook.social-media-icon {
+	background-position: 0 0;
+}
+#instagram.social-media-icon {
+	background-position: 0 -48px;
+}
+#pinterest.social-media-icon {
+	background-position: -48px 0;
+}
+#twitter.social-media-icon {
+	background-position: -48px -48px;
+}
+#header #logo {
+	background-position: -96px 0;
+	display: inline-block;
+	height: 96px;
+	width: 96px;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) {
+	.header-sprite {
+		background: url('/images/header-sprite@2x.png') no-repeat center center;
+		background-size: 192px 96px;
+	}
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 3),
+only screen and (min--moz-device-pixel-ratio: 3),
+only screen and (-o-min-device-pixel-ratio: 3/1),
+only screen and (min-device-pixel-ratio: 3),
+only screen and (min-resolution: 3dppx) {
+	.header-sprite {
+		background: url('/images/header-sprite@3x.png') no-repeat center center;
+		background-size: 192px 96px;
+	}
+}

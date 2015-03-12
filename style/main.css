@@ -327,6 +327,7 @@ only screen and (min-resolution: 2dppx) {
 	#header .logo {
 		background: transparent url('/images/sprite-logo@2x.png') no-repeat center center;
 		background-size: 200px 120px;
+		background-position: 0 -60px;
 	}
 	#header .menu-toggle {
 		background: transparent url('/images/icon-menu-toggle@2x.png') no-repeat center center;
@@ -345,6 +346,7 @@ only screen and (min-resolution: 3dppx) {
 	#header .logo {
 		background: transparent url('/images/sprite-logo@3x.png') no-repeat center center;
 		background-size: 200px 120px;
+		background-position: 0 -60px;
 	}
 	#header .menu-toggle {
 		background: transparent url('/images/icon-menu-toggle@3x.png') no-repeat center center;

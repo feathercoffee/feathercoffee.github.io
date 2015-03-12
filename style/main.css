@@ -370,9 +370,6 @@ only screen and (min-resolution: 3dppx) {
 		overflow: hidden;
 		clear: both;
 	}
-	#header .logo {
-		/* background-position: 0 0; */
-	}
 	#header ul {
 		margin: 0;
 		padding: 0;
@@ -428,9 +425,6 @@ only screen and (min-resolution: 3dppx) {
 		background: -o-linear-gradient(top,rgba(102,102,102,0),rgba(102,102,102,0.3)); /*Opera 11.1-12*/
 		background: -moz-linear-gradient(top,rgba(102,102,102,0),rgba(102,102,102,0.3)); /*Fx 3.6-15*/
 		background: linear-gradient(to top, rgba(102,102,102,0), rgba(102,102,102,0.3)); /*Standard*/
-	}
-	#header .logo {
-		background-position: 0 -60px;
 	}
 	#splash {
 		top: 120px;

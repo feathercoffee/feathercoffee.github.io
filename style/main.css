@@ -324,9 +324,13 @@ only screen and (min-resolution: 2dppx) {
 		background: url('/images/social-pink@2x.png') no-repeat center center;
 		background-size: 199px 40px;
 	}
-	#header #logo {
+	#header .logo {
 		background: transparent url('/images/sprite-logo@2x.png') no-repeat center center;
 		background-size: 200px 120px;
+	}
+	#header .menu-toggle {
+		background-size: 40px 35px;
+		background: transparent url('/images/icon-menu-toggle@2x.png') no-repeat center center;
 	}
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 3),
@@ -338,9 +342,13 @@ only screen and (min-resolution: 3dppx) {
 		background: url('/images/social-pink@3x.png') no-repeat center center;
 		background-size: 199px 40px;
 	}
-	#header #logo {
+	#header .logo {
 		background: transparent url('/images/sprite-logo@3x.png') no-repeat center center;
 		background-size: 200px 120px;
+	}
+	#header .menu-toggle {
+		background-size: 40px 35px;
+		background: transparent url('/images/icon-menu-toggle@3x.png') no-repeat center center;
 	}
 }
 @media only screen and (min-width: 300px) {

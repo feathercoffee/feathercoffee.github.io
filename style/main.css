@@ -329,8 +329,8 @@ only screen and (min-resolution: 2dppx) {
 		background-size: 200px 120px;
 	}
 	#header .menu-toggle {
-		background-size: 40px 35px;
 		background: transparent url('/images/icon-menu-toggle@2x.png') no-repeat center center;
+		background-size: 40px 35px;
 	}
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 3),
@@ -347,8 +347,8 @@ only screen and (min-resolution: 3dppx) {
 		background-size: 200px 120px;
 	}
 	#header .menu-toggle {
-		background-size: 40px 35px;
 		background: transparent url('/images/icon-menu-toggle@3x.png') no-repeat center center;
+		background-size: 40px 35px;
 	}
 }
 @media only screen and (min-width: 300px) {

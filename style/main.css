@@ -201,13 +201,16 @@ video {
 	left: 0;
 	background-color: #333;
 	z-index: 999;
-	opacity: 0.5;
+	opacity: 0.8;
 	border-radius: 3px;
 }
 #splash .wrapper {
 	position: relative;
 	z-index: 1001;
 	padding: 20px;
+}
+#splash .intro-short {
+	display: none;
 }
 #splash h1 {
 	color: #FFF;
@@ -223,6 +226,8 @@ video {
 }
 #splash p {
 	vertical-align: top;
+	font-size: 1em;
+	max-width: 600px;
 }
 #splash .button-wrapper p {
 	display: inline-block;
@@ -276,7 +281,9 @@ div.col-multi:nth-of-type(3n + 4) {
 	margin: 0 10px 10px 0;
 	float: left;
 }
-
+#team h3 {
+	margin-bottom: 0;
+}
 input[type="text"],
 input[type="email"],
 textarea {
@@ -406,6 +413,12 @@ only screen and (min-resolution: 3dppx) {
 		width: 300px;
 		left: 50%;
 	}
+	#splash .intro-short {
+		display: block;
+	}
+	#splash .intro-long {
+		display: none;
+	}
 	#splash h1 {
 		font-size: 1.750em;
 	}
@@ -436,6 +449,12 @@ only screen and (min-resolution: 3dppx) {
 	}
 	#splash h1 {
 		font-size: 2.375em;
+	}
+	#splash .intro-short {
+		display: none;
+	}
+	#splash .intro-long {
+		display: block;
 	}
 	#footer {
 		padding: 80px 10px 10px;

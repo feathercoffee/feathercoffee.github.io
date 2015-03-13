@@ -58,7 +58,7 @@ video {
 		display: none; 
 	}
 	#video-wrapper .background {
-		background: transparent url('/images/backdrop.jpg');
+		background: transparent url('/images/backdrop.jpg') no-repeat;
 	}
 }
 .invisible {
@@ -167,15 +167,14 @@ video {
 	display: none;
 	float: right;
 	height: 60px;
-	line-height: 60px;
 	width: 40px;
 }
 #header .menu-toggle {
 	height: 35px;
 	width: 40px;
 	background: transparent url('/images/icon-menu-toggle.png') no-repeat center center;
-	display: inline-block;
-	vertical-align: middle;
+	display: block;
+	padding-top: 35px;
 }
 #header .menu-wrapper {
 	float: right;

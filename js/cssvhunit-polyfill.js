@@ -4,6 +4,8 @@ var polyfill = function() {
 
 	wrapper.style.height = window.innerHeight + "px";
 
+	alert(wrapper.style.height);
+
 };
 
 window.onresize = polyfill;

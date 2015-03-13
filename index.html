@@ -13,6 +13,13 @@
 			document.createElement('video');
 		</script>
 		<![endif]-->
+		<script src="js/modernizr.custom.59284.js"></script>
+		<script>
+			Modernizr.load({
+				test: Modernizr.cssvhunit,
+				nope: "js/cssvhunit-polyfill.js"
+			});
+		</script>
 	</head>
 	<body>
 		<div id="header" class="transitionable-opacity">

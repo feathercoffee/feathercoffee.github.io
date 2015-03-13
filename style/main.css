@@ -16,8 +16,7 @@ a:not([name]) {
 	text-decoration: none;
 }
 #video-wrapper {
-	height: 100vh !important;
-	height: 800px;
+	/* height: 100vh; */
 	overflow: hidden;
 	position: relative;
 }

@@ -17,24 +17,9 @@ a:not([name]) {
 }
 #video-wrapper {
 	height: 640px;
-	/* height: 100vh; */
 	overflow: hidden;
 	position: relative;
 }
-/*
-#video-wrapper h1 {
-	position: absolute;
-	width: 400px;
-	height: 100vh;
-	margin: -35vh -150px;
-	left: 50%;
-	top: 65vh;
-	color: #FFF;
-	text-shadow: 1px 1px 2px #333;
-	font-size: 2.750em;
-	z-index: 1000;
-}
-*/
 #video-wrapper .background {
 	position: absolute;
 	z-index: -101;
@@ -136,6 +121,7 @@ video {
 #header.alternate .background {
 	background: none rgba(255,255,255,0.95);
 	box-shadow: 1px 1px 2px #CCC;
+	border-bottom: 0 none;
 }
 #header.alternate .logo {
 	background-position: 0 0;
@@ -367,10 +353,8 @@ only screen and (min-resolution: 3dppx) {
 		padding: 5px 10px;
 	}
 	#header .background {
-		background: -webkit-linear-gradient(bottom,rgba(0,0,0,0),rgba(0,0,0,0.8)); /*Safari 5.1-6*/
-		background: -o-linear-gradient(top,rgba(0,0,0,0),rgba(0,0,0,0.8)); /*Opera 11.1-12*/
-		background: -moz-linear-gradient(top,rgba(0,0,0,0),rgba(0,0,0,0.8)); /*Fx 3.6-15*/
-		background: linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,0.8)); /*Standard*/
+		background: none #333;
+		border-bottom: solid 1px #516175;
 	}
 	#header .menu-toggle-wrapper {
 		display: inline-block;
@@ -438,6 +422,7 @@ only screen and (min-resolution: 3dppx) {
 		padding: 5px 10px;
 	}
 	#header .background {
+		border-bottom: 0 none;
 		background: -webkit-linear-gradient(bottom,rgba(102,102,102,0),rgba(102,102,102,0.3)); /*Safari 5.1-6*/
 		background: -o-linear-gradient(top,rgba(102,102,102,0),rgba(102,102,102,0.3)); /*Opera 11.1-12*/
 		background: -moz-linear-gradient(top,rgba(102,102,102,0),rgba(102,102,102,0.3)); /*Fx 3.6-15*/

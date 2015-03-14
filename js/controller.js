@@ -67,7 +67,8 @@
 			}
 			else {
 
-				var height = $("#header .menu-wrapper ul.menu").height() + $("#header .menu-wrapper ul.social-media").height();
+				var height = $("#header .menu-wrapper ul.menu").height() + 
+					$("#header .menu-wrapper ul.social-media").height() + 10;
 
 				$(this).addClass("current");
 

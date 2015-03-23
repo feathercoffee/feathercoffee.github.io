@@ -12,7 +12,7 @@ body {
 	padding: 0;
 }
 a:not([name]) {
-	color: #FB4E83;
+	color: #D03464;
 	text-decoration: none;
 }
 #video-wrapper {
@@ -129,6 +129,9 @@ video {
 #header.alternate ul li {
 	color: #000;
 }
+#header.alternate h1 {
+	display: none;
+}
 #header ul {
 	margin: 0;
 	list-style-type: none;
@@ -141,7 +144,7 @@ video {
 	text-transform: uppercase;
 	font-family: "nimbus-sans", sans-serif;
 	font-weight: bold;
-	color: #FFF;
+	color: #EAE9B8;
 }
 #header ul li a {
 	vertical-align: middle;
@@ -175,10 +178,19 @@ video {
 	-o-transition: height 0.3s ease-in-out;
 	transition: height 0.3s ease-in-out;
 }
+#header h1 {
+	color: #EAE9B8;
+	text-transform: uppercase;
+	font-size: 2.375em;
+	font-family: "nimbus-sans", sans-serif;
+	margin-top: 0;
+	float: left;
+	clear: left;
+}
 #splash {
 	position: absolute;
 	z-index: 1000;
-	top: 120px;
+	top: 140px;
 	left: 80px;
 }
 #splash .background {
@@ -200,15 +212,8 @@ video {
 #splash .intro-short {
 	display: none;
 }
-#splash h1 {
-	color: #FFF;
-	text-transform: uppercase;
-	font-size: 2.375em;
-	font-family: "nimbus-sans", sans-serif;
-	margin-top: 0;
-}
 #splash p, #splash i {
-	color: #FFF;
+	color: #EAE9B8;
 	text-shadow: 1px 1px 2px #333;
 	font-size: 1.250em;
 }
@@ -226,7 +231,7 @@ video {
 	padding: 15px;
 	border-radius: 3px;
 	border: 1px solid #EBEBEB;
-	color: #FFF;
+	color: #EAE9B8;
 	font-weight: 700;
 	min-width: 120px;
 	-webkit-appearance: none;
@@ -285,12 +290,12 @@ textarea {
 	outline: 0;
 	
 }
-input[type="submit"] { 
-	background-color: #FB4E83;
+input[type="submit"] {
+	background-color: #D03464;
 	padding: 15px;
 	border-radius: 3px;
 	border: solid 1px #EBEBEB;
-	color: #FFF;
+	color: #EAE9B8;
 	font-weight: bold;
 	min-width: 120px;
 	-webkit-appearance: none;
@@ -392,6 +397,9 @@ only screen and (min-resolution: 3dppx) {
 	#header ul.social-media li {
 		padding-left: 0;
 	}
+	#header h1 {
+		font-size: 1em;
+	}
 	#splash {
 		position: absolute;
 		z-index: 1000;
@@ -404,9 +412,6 @@ only screen and (min-resolution: 3dppx) {
 	}
 	#splash .intro-long {
 		display: none;
-	}
-	#splash h1 {
-		font-size: 1.750em;
 	}
 	#footer {
 		padding: 80px 10px 10px;
@@ -428,14 +433,14 @@ only screen and (min-resolution: 3dppx) {
 		background: -moz-linear-gradient(top,rgba(102,102,102,0),rgba(102,102,102,0.3)); /*Fx 3.6-15*/
 		background: linear-gradient(to top, rgba(102,102,102,0), rgba(102,102,102,0.3)); /*Standard*/
 	}
+	#header h1 {
+		font-size: 2.375em;
+	}
 	#splash {
-		top: 120px;
+		top: 140px;
 		left: 80px;
 		margin-left: 0;
 		width: auto;
-	}
-	#splash h1 {
-		font-size: 2.375em;
 	}
 	#splash .intro-short {
 		display: none;
@@ -468,7 +473,7 @@ only screen and (min-resolution: 3dppx) {
 		padding-left: 20px;
 		height: 60px;
 		line-height: 60px;
-		color: #FFF;
+		color: #EAE9B8;
 	}
 	#header ul.menu li,#header ul.social-media li:first-child {
 		display: inline;

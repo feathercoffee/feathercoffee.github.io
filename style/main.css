@@ -326,6 +326,7 @@ only screen and (min-resolution: 2dppx) {
 	}
 	#header .logo {
 		background: transparent url('/images/logo@2x.png') no-repeat center center;
+		background-position: 0 0;
 		background-size: 200px 88px;
 	}
 	#header .menu-toggle {
@@ -344,6 +345,7 @@ only screen and (min-resolution: 3dppx) {
 	}
 	#header .logo {
 		background: transparent url('/images/logo@3x.png') no-repeat center center;
+		background-position: 0 0;
 		background-size: 200px 88px;
 	}
 	#header .menu-toggle {

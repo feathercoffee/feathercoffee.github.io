@@ -106,13 +106,14 @@ video {
 	z-index: 1000;
 }
 #header .logo {
-	background: transparent url('/images/sprite-logo.png') no-repeat center center;
+	background: transparent url('/images/logo.png') no-repeat center center;
 	display: inline-block;
 	font-style: italic;
-	height: 60px;
+	height: 44px;
 	width: 200px;
-	background-position: 0 -60px;
+	background-position: 0 0;
 	float: left;
+	margin-top: 8px;
 }
 #header.alternate {
 	position: fixed;
@@ -124,7 +125,7 @@ video {
 	border-bottom: 0 none;
 }
 #header.alternate .logo {
-	background-position: 0 0;
+	background-position: 0 -44px;
 }
 #header.alternate ul li {
 	color: #000;
@@ -180,8 +181,7 @@ video {
 }
 #header h1 {
 	color: #EAE9B8;
-	text-transform: uppercase;
-	font-size: 2.375em;
+	font-size: 1em;
 	font-family: "nimbus-sans", sans-serif;
 	margin-top: 0;
 	float: left;
@@ -325,9 +325,8 @@ only screen and (min-resolution: 2dppx) {
 		background-size: 199px 40px;
 	}
 	#header .logo {
-		background: transparent url('/images/sprite-logo@2x.png') no-repeat center center;
-		background-size: 200px 120px;
-		background-position: 0 -60px;
+		background: transparent url('/images/logo@2x.png') no-repeat center center;
+		background-size: 200px 44px;
 	}
 	#header .menu-toggle {
 		background: transparent url('/images/icon-menu-toggle@2x.png') no-repeat center center;
@@ -344,9 +343,8 @@ only screen and (min-resolution: 3dppx) {
 		background-size: 199px 40px;
 	}
 	#header .logo {
-		background: transparent url('/images/sprite-logo@3x.png') no-repeat center center;
-		background-size: 200px 120px;
-		background-position: 0 -60px;
+		background: transparent url('/images/logo@3x.png') no-repeat center center;
+		background-size: 200px 44px;
 	}
 	#header .menu-toggle {
 		background: transparent url('/images/icon-menu-toggle@3x.png') no-repeat center center;
@@ -434,7 +432,7 @@ only screen and (min-resolution: 3dppx) {
 		background: linear-gradient(to top, rgba(102,102,102,0), rgba(102,102,102,0.3)); /*Standard*/
 	}
 	#header h1 {
-		font-size: 2.375em;
+		font-size: 1em;
 	}
 	#splash {
 		top: 140px;

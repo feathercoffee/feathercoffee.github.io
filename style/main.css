@@ -398,7 +398,8 @@ only screen and (min-resolution: 3dppx) {
 		padding-left: 0;
 	}
 	#header h1 {
-		font-size: 1em;
+		position: absolute;
+		top: 75px;
 	}
 	#splash {
 		position: absolute;
@@ -434,7 +435,7 @@ only screen and (min-resolution: 3dppx) {
 		background: linear-gradient(to top, rgba(102,102,102,0), rgba(102,102,102,0.3)); /*Standard*/
 	}
 	#header h1 {
-		font-size: 1em;
+		position: initial;
 	}
 	#splash {
 		top: 140px;

@@ -105,15 +105,14 @@ video {
 	position: relative;
 	z-index: 1000;
 }
-#header .logo {
-	background: transparent url('/images/logo.png') no-repeat center center;
+#logo {
+	background: transparent url('/images/logo-004.png') no-repeat center center;
 	display: inline-block;
 	font-style: italic;
-	height: 44px;
-	width: 200px;
+	height: 102px;
+	width: 407px;
 	background-position: 0 0;
 	float: left;
-	margin-top: 8px;
 }
 #header.alternate {
 	position: fixed;
@@ -124,8 +123,10 @@ video {
 	box-shadow: 1px 1px 2px #CCC;
 	border-bottom: 0 none;
 }
-#header.alternate .logo {
-	background-position: 0 -44px;
+#header.alternate #logo {
+	background-position: 0 -102px;
+	height: 64px;
+	width: 205px;
 }
 #header.alternate ul li {
 	color: #000;
@@ -167,7 +168,7 @@ video {
 	width: 40px;
 	background: transparent url('/images/icon-menu-toggle.png') no-repeat center center;
 	display: block;
-	padding-top: 35px;
+	padding-top: 25px;
 }
 #header .menu-wrapper {
 	float: right;
@@ -324,10 +325,10 @@ only screen and (min-resolution: 2dppx) {
 		background: url('/images/social-pink@2x.png') no-repeat center center;
 		background-size: 199px 40px;
 	}
-	#header .logo {
-		background: transparent url('/images/logo@2x.png') no-repeat center center;
+	#logo {
+		background: transparent url('/images/logo-004@2x.png') no-repeat center center;
 		background-position: 0 0;
-		background-size: 200px 88px;
+		background-size: 407px 160px;
 	}
 	#header .menu-toggle {
 		background: transparent url('/images/icon-menu-toggle@2x.png') no-repeat center center;
@@ -343,10 +344,10 @@ only screen and (min-resolution: 3dppx) {
 		background: url('/images/social-pink@3x.png') no-repeat center center;
 		background-size: 199px 40px;
 	}
-	#header .logo {
-		background: transparent url('/images/logo@3x.png') no-repeat center center;
+	#logo {
+		background: transparent url('/images/logo-004@3x.png') no-repeat center center;
 		background-position: 0 0;
-		background-size: 200px 88px;
+		background-size: 407px 160px;
 	}
 	#header .menu-toggle {
 		background: transparent url('/images/icon-menu-toggle@3x.png') no-repeat center center;
@@ -356,6 +357,11 @@ only screen and (min-resolution: 3dppx) {
 @media only screen and (min-width: 300px) {
 	#header {
 		padding: 5px 10px;
+	}
+	#logo {
+		height: 64px;
+		width: 205px;
+		background-position: -207px -102px;
 	}
 	#header .background {
 		background: none #333;
@@ -426,6 +432,11 @@ only screen and (min-resolution: 3dppx) {
 @media only screen and (min-width: 900px) {
 	#header {
 		padding: 5px 10px;
+	}
+	#logo {
+		height: 102px;
+		width: 407px;
+		background-position: 0 0;
 	}
 	#header .background {
 		border-bottom: 0 none;

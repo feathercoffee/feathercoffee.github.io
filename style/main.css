@@ -242,6 +242,9 @@ video {
 #splash .button-wrapper button:disabled {
 	display: none;
 }
+#coffee-trailer {
+	width: 100%;
+}
 .row {
 	clear: both;
 	width: 100%;

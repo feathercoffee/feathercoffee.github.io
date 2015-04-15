@@ -203,6 +203,7 @@ video {
 	z-index: 1000;
 	top: 140px;
 	left: 80px;
+	max-width: 700px;
 }
 #splash .background {
 	position: absolute;
@@ -432,6 +433,9 @@ only screen and (min-resolution: 3dppx) {
 	}
 	#splash .intro-long {
 		display: none;
+	}
+	#splash p, #splash i {
+		font-size: 1em;
 	}
 	#footer {
 		padding: 80px 10px 10px;

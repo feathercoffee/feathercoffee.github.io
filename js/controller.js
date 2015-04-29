@@ -298,6 +298,16 @@
 			
 			});
 
+			$("#donate-now-link").on("click", function() {
+				ga("send", "event", "Campaign Links", "Click", "Blurb Text");
+			});
+
+			$("#donate-now-button").on("click", function() {
+				ga("send", "event", "Campaign Links", "Click", "Blurb Button");
+
+				window.open("http://igg.me/at/feathercoffee");
+			});
+
 			$(".tooltip").tooltipster({trigger: "custom", theme: "tooltipster-punk"});
 
 			return this;

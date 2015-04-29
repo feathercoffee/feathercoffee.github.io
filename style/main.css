@@ -234,6 +234,7 @@ video {
 	font-size: 1em;
 	max-width: 600px;
 }
+/*
 #splash .button-wrapper p {
 	display: inline-block;
 	margin: 0 20px 0 0;
@@ -252,7 +253,7 @@ video {
 }
 #splash .button-wrapper button:disabled {
 	display: none;
-}
+}*/
 #coffee-trailer {
 	width: 100%;
 }
@@ -305,7 +306,7 @@ textarea {
 	outline: 0;
 	
 }
-input[type="submit"] {
+input[type="submit"], button {
 	background-color: #D03464;
 	padding: 15px;
 	border-radius: 3px;
@@ -318,6 +319,18 @@ input[type="submit"] {
 }
 input[type="submit"]:disabled {
 	background-color: #CCC;
+}
+.button-wrapper {
+	padding-top: 15px;
+	text-align: center;
+}
+button {
+	text-transform: uppercase;
+	float: none;
+	font-size: 1.250em;
+}
+button:disabled {
+	display: none;
 }
 input,
 textarea {

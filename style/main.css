@@ -38,26 +38,11 @@ figcaption {
 	right: 0;
 	bottom: 0;
 	left: 0;
-}
-video {
-	right: 0;
-	bottom: 0;
-	min-width: 100%; 
-	min-height: 100%;
-	width: auto;
-	height: auto;
-	z-index: -100;
-	background-size: cover;
-	opacity: 0;
-	display: block;
-}
-@media only screen and (max-width: 900px) {
-	video { 
-		display: none; 
-	}
-	#video-wrapper .background {
-		background: transparent url('/images/backdrop.jpg') no-repeat;
-	}
+	background: transparent url('/images/backdrop.jpg') no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
 }
 .invisible {
 	filter: alpha(opacity=0);
